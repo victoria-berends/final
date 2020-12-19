@@ -1,54 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Audio Interface</title>
-    <meta name="description" content="Example of Javascript in action!">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8" />
+		<title>Audio Interface</title>
+		<meta name="description" content="Example of Javascript in action!" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    
-    <link rel="stylesheet" href="css/css.css">
-  </head>
-  <body>
-      <div class="background">
-          
-     
-            
-<div class="glow">
-   <div class="board">
-    <a class="example_a"  target="_blank" rel="nofollow noopener">
-       a</a>  
-        <a class="example_b"  target="_blank" rel="nofollow noopener">
-           b</a> 
-           <a class="example_c"  target="_blank" rel="nofollow noopener">
-            c</a> 
-            <a class="example_d"  target="_blank" rel="nofollow noopener">
-                d</a> 
-                <a class="example_e"  target="_blank" rel="nofollow noopener">
-                    e</a> 
-                    <a class="example_f"  target="_blank" rel="nofollow noopener">
-                        f</a> 
-                        <a class="example_g"  target="_blank" rel="nofollow noopener">
-                            g</a>
-                            <a class="example_h"  target="_blank" rel="nofollow noopener">
-                                h</a>  
-                                <a class="example_i"  target="_blank" rel="nofollow noopener">
-                                    i</a>
-                                    <a class="example_j"  target="_blank" rel="nofollow noopener">
-                                        j</a> 
-                                        <a class="example_k"  target="_blank" rel="nofollow noopener">
-                                            k</a>  
-                                            <a class="example_1"  target="_blank" rel="nofollow noopener">
-                                                1</a>  
-                                                <a class="example_2"  target="_blank" rel="nofollow noopener">
-                                                    2</a>
-                                                    <a class="example_3"  target="_blank" rel="nofollow noopener">
-                                                        3</a> 
-                                                        <a class="example_4"  target="_blank" rel="nofollow noopener">
-                                                            4</a>  
-   </div>
-   </div>
-</div>
-    <script src="js/main.js"></script>
-  </body>
+		<link rel="stylesheet" href="css/css.css" />
+		<audio id="note_c" src="assets/notes/Baby Chicks-SoundBible.com-2811441.mp3"></audio>
+		<audio id="note_d" src="assets/notes/Black Crows Cawing-SoundBible.com-597755904.mp3"></audio>
+	</head>
+	<body>
+		<div class="background">
+			<audio controls src="assets/notes/Takeout.mp3"></audio>
+			<div class="glow">
+				<div class="board">
+					<a
+						onmousedown="playNote('#note_c')"
+						onclick="pauseNote('#note_c')"
+						class="example_a"
+						target="_blank"
+						rel="nofollow noopener"
+					>
+						a</a
+					>
+					<a
+						onmousedown="playNote('#note_d')"
+						onclick="pauseNote('#note_d')"
+						class="example_b"
+						target="_blank"
+						rel="nofollow noopener"
+					>
+						b</a
+					>
+					<a class="example_c" target="_blank" rel="nofollow noopener"> c</a>
+					<a class="example_d" target="_blank" rel="nofollow noopener"> d</a>
+					<a class="example_e" target="_blank" rel="nofollow noopener"> e</a>
+					<a class="example_f" target="_blank" rel="nofollow noopener"> f</a>
+					<a class="example_g" target="_blank" rel="nofollow noopener"> g</a>
+					<a class="example_h" target="_blank" rel="nofollow noopener"> h</a>
+					<a class="example_i" target="_blank" rel="nofollow noopener"> i</a>
+					<a class="example_j" target="_blank" rel="nofollow noopener"> j</a>
+					<a class="example_k" target="_blank" rel="nofollow noopener"> k</a>
+					<a class="example_1" target="_blank" rel="nofollow noopener"> 1</a>
+					<a class="example_2" target="_blank" rel="nofollow noopener"> 2</a>
+					<a class="example_3" target="_blank" rel="nofollow noopener"> 3</a>
+					<a class="example_4" target="_blank" rel="nofollow noopener"> 4</a>
+				</div>
+			</div>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
 </html>
+
