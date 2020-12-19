@@ -15,7 +15,7 @@ document.addEventListener('keyup', (event) => {
 function playNote(id) {
     const audio = document.querySelector(id);
     
-	audio.currentTime = 2;
+	audio.currentTime = 0;
 	audio.volume = 0.6;
 	audio.play();
 }
