@@ -1,56 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<title>Audio Interface</title>
-		<meta name="description" content="Example of Javascript in action!" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="utf-8" />
+    <title>Audio Interface</title>
+    <meta name="description" content="Example of Javascript in action!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href="css/css.css" />
-		<audio id="Chicks" src="assets/notes/Baby Chicks-SoundBible.com-2811441.mp3"></audio>
-		<audio id="Crows" src="assets/notes/Black Crows Cawing-SoundBible.com-597755904.mp3"></audio>
-	</head>
-	<body>
-		<div class="background">
-			
-			<div class="glow">
-				<div class="board">
-                    <audio id= "play" controls src="assets/notes/Takeout.mp3"></audio>
-					<a
-						onmousedown="playNote('#Chicks')"
-						onclick="pauseNote('#Chicks')"
-						class="example_a"
-						target="_blank"
-						rel="nofollow noopener"
-					>
-						a</a
-					>
-					<a
-						onmousedown="playNote('#Crows')"
-						onclick="pauseNote('#Crows')"
-						class="example_b"
-						target="_blank"
-						rel="nofollow noopener"
-					>
-						b</a
-					>
-					<a class="example_c" target="_blank" rel="nofollow noopener"> c</a>
-					<a class="example_d" target="_blank" rel="nofollow noopener"> d</a>
-					<a class="example_e" target="_blank" rel="nofollow noopener"> e</a>
-					<a class="example_f" target="_blank" rel="nofollow noopener"> f</a>
-					<a class="example_g" target="_blank" rel="nofollow noopener"> g</a>
-					<a class="example_h" target="_blank" rel="nofollow noopener"> h</a>
-					<a class="example_i" target="_blank" rel="nofollow noopener"> i</a>
-					<a class="example_j" target="_blank" rel="nofollow noopener"> j</a>
-					<a class="example_k" target="_blank" rel="nofollow noopener"> k</a>
-					<a class="example_1" target="_blank" rel="nofollow noopener"> 1</a>
-					<a class="example_2" target="_blank" rel="nofollow noopener"> 2</a>
-					<a class="example_3" target="_blank" rel="nofollow noopener"> 3</a>
-					<a class="example_4" target="_blank" rel="nofollow noopener"> 4</a>
-				</div>
-			</div>
-		</div>
-		<script src="js/main.js"></script>
-	</body>
+    <link rel="stylesheet" href="css/css.css" />
+    <audio
+      id="Chicks"
+      src="assets/notes/Baby Chicks-SoundBible.com-2811441.mp3"
+    ></audio>
+    <audio
+      id="Crows"
+      src="assets/notes/Black Crows Cawing-SoundBible.com-597755904.mp3"
+    ></audio>
+    <audio
+      id="Bluejay"
+      src="assets/notes/bluejay_call-Mike_Koenig-591302150.mp3"
+    ></audio>
+    <audio
+      id="Bluejay2"
+      src="assets/notes/bluejay_call_2-Mike_Koenig-393733977.mp3"
+    ></audio>
+    <audio
+      id="Cardinal"
+      src="assets/notes/Best Cardinal Bird-SoundBible.com-1171415022.mp3"
+    ></audio>
+    <audio
+      id="Cartoon"
+      src="assets/notes/cartoon-birds-2_daniel-simion.mp3"
+    ></audio>
+    <audio
+      id="Owl"
+      src="assets/notes/horned_owl-Mike_Koenig-1945374932.mp3"
+    ></audio>
+    <audio
+      id="Duck"
+      src="assets/notes/pissed_off_duck-Mike_Koenig-1752213564.mp3"
+    ></audio>
+    <audio id="Lark" src="assets/notes/meadowlark_daniel-simion.mp3"></audio>
+    <audio
+      id="Geese"
+      src="assets/notes/canadian_geese_migration-Mike_Koenig-1414981268.mp3"
+    ></audio>
+    <audio
+      id="Warb"
+      src="assets/notes/Warbling_Vireo-Mike_Koenig-89869915.mp3"
+    ></audio>
+  </head>
+  <body>
+    <div class="background">
+      <div class="glow">
+        <div class="board">
+          <audio id="play" controls src="assets/notes/Takeout.mp3"></audio>
+          <a
+            onmousedown="playNote('#Chicks')"
+            onclick="pauseNote('#Chicks')"
+            id="btn1"
+            class="example_a"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            E</a
+          >
+          <a
+            onmousedown="playNote('#Crows')"
+            onclick="pauseNote('#Crows')"
+            id="btn2"
+            class="example_b"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            R</a
+          >
+          <a
+            onmousedown="playNote('#Bluejay')"
+            onclick="pauseNote('#Bluejay')"
+            id="btn3"
+            class="example_c"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            T</a
+          >
+          <a
+            onmousedown="playNote('#Bluejay2')"
+            onclick="pauseNote('#Bluejay2')"
+            id="btn4"
+            class="example_d"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            Y</a
+          >
+          <a
+            onmousedown="playNote('#Cardinal')"
+            onclick="pauseNote('#Cardinal')"
+            id="btn5"
+            class="example_e"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            U</a
+          >
+          <a
+            onmousedown="playNote('#Cartoon')"
+            onclick="pauseNote('#Cartoon')"
+            id="btn6"
+            class="example_f"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            I</a
+          >
+          <a
+            nmousedown="playNote('#Owl')"
+            onclick="pauseNote('#Owl')"
+            id="btn7"
+            class="example_g"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            D</a
+          >
+          <a
+            onmousedown="playNote('#Duck')"
+            onclick="pauseNote('#Duck')"
+            id="btn8"
+            class="example_h"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            F</a
+          >
+          <a
+            onmousedown="playNote('#Lark')"
+            onclick="pauseNote('#Lark')"
+            id="btn9"
+            class="example_i"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            G</a
+          >
+          <a
+            onmousedown="playNote('#Geese')"
+            onclick="pauseNote('#Geese')"
+            id="btn10"
+            class="example_j"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            H</a
+          >
+          <a
+            onmousedown="playNote('#Warb')"
+            onclick="pauseNote('#Warb')"
+            id="btn11"
+            class="example_k"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            J</a
+          >
+          <a
+            onmousedown="playNote('#Crows')"
+            onclick="pauseNote('#Crows')"
+            id="btn12"
+            class="example_1"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            C</a
+          >
+          <a
+            onmousedown="playNote('#Bluejay')"
+            onclick="pauseNote('#Bluejay')"
+            id="btn13"
+            class="example_2"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            V</a
+          >
+          <a
+            onmousedown="playNote('#Bluejay2')"
+            onclick="pauseNote('#Bluejay2')"
+            id="btn14"
+            class="example_3"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            B</a
+          >
+          <a
+            onmousedown="playNote('#Cardinal')"
+            onclick="pauseNote('#Cardinal')"
+            id="btn15"
+            class="example_4"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            N</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
 </html>
-
