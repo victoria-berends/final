@@ -354,9 +354,9 @@ body, html {
                                                                                         box-shadow: 5px 40px -10px rgba(255, 255, 255, 0.57);
                                                                                         transition: all 0.4s ease 0s;
                                                                                         }        
-                                                                                        .example_4 {
-                                                                                            grid-column-start:4; 
-                                                                                            grid-column-end: 4;
+                                                                                        .example_3 {
+                                                                                            grid-column-start:8; 
+                                                                                            grid-column-end: 9;
                                                                                             grid-row-start:3;
                                                                                             grid-row-end:4;
                                                                                             margin-top: 30%;
@@ -370,11 +370,35 @@ body, html {
                                                                                             border: none;
                                                                                             transition: all 0.4s ease 0s;
                                                                                             }
-                                                                                            .example_4:hover {
+                                                                                            .example_3:hover {
                                                                                                 background: #9ac9ff;
                                                                                                 letter-spacing: 1px;
                                                                                                 -webkit-box-shadow: 0px 5px 40px -10px rgba(255, 255, 255, 0.57);
                                                                                                 -moz-box-shadow: 0px 5px 40px -10px rgba(255, 255, 255, 0.57);
                                                                                                 box-shadow: 5px 40px -10px rgba(255, 255, 255, 0.57);
                                                                                                 transition: all 0.4s ease 0s;
-                                                                                                }      
+                                                                                                }  
+                                                                                                .example_4 {
+                                                                                                    grid-column-start:10; 
+                                                                                                    grid-column-end: 11;
+                                                                                                    grid-row-start:3;
+                                                                                                    grid-row-end:4;
+                                                                                                    margin-top: 30%;
+                                                                                                    color: #fff !important;
+                                                                                                    text-transform: uppercase;
+                                                                                                    text-decoration: none;
+                                                                                                    background: #2483ff;
+                                                                                                    padding: 20px;
+                                                                                                    border-radius: 5px;
+                                                                                                    display: inline-block;
+                                                                                                    border: none;
+                                                                                                    transition: all 0.4s ease 0s;
+                                                                                                    }
+                                                                                                    .example_4:hover {
+                                                                                                        background: #9ac9ff;
+                                                                                                        letter-spacing: 1px;
+                                                                                                        -webkit-box-shadow: 0px 5px 40px -10px rgba(255, 255, 255, 0.57);
+                                                                                                        -moz-box-shadow: 0px 5px 40px -10px rgba(255, 255, 255, 0.57);
+                                                                                                        box-shadow: 5px 40px -10px rgba(255, 255, 255, 0.57);
+                                                                                                        transition: all 0.4s ease 0s;
+                                                                                                        }          
