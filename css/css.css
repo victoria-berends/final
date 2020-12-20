@@ -77,8 +77,8 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+  padding-top: 40px;
   background: #ff6ce7;
-  padding: 20px;
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -122,11 +122,13 @@ html {
   grid-row-start: 1;
   grid-row-end: 2;
   margin-top: 40%;
-  color: #fff !important;
+  color: #fff ;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #ff6ce7;
-  padding: 20px;
+ 
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -146,11 +148,13 @@ html {
   grid-row-start: 1;
   grid-row-end: 2;
   margin-top: 40%;
-  color: #fff !important;
+  color: #fff ;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #ff6ce7;
-  padding: 20px;
+  
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -170,11 +174,13 @@ html {
   grid-row-start: 1;
   grid-row-end: 2;
   margin-top: 40%;
-  color: #fff !important;
+  color: #fff ;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #ff6ce7;
-  padding: 20px;
+  
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -194,11 +200,13 @@ html {
   grid-row-start: 1;
   grid-row-end: 2;
   margin-top: 40%;
-  color: #fff !important;
+  color: #fff ;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #ff6ce7;
-  padding: 20px;
+  
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -218,11 +226,13 @@ html {
   grid-row-start: 1;
   grid-row-end: 2;
   margin-top: 40%;
-  color: #fff !important;
+  color: #fff ;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #ff6ce7;
-  padding: 20px;
+
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -242,11 +252,13 @@ html {
   grid-row-start: 2;
   grid-row-end: 3;
   margin-top: 40%;
-  color: #fff !important;
+  color: #fff ;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #44ceab;
-  padding: 20px;
+
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -266,11 +278,13 @@ html {
   grid-row-start: 2;
   grid-row-end: 3;
   margin-top: 40%;
-  color: #fff !important;
+  color: #fff ;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #44ceab;
-  padding: 20px;
+ 
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -290,11 +304,13 @@ html {
   grid-row-start: 2;
   grid-row-end: 3;
   margin-top: 40%;
-  color: #fff !important;
+  color: #fff ;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #44ceab;
-  padding: 20px;
+
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -314,11 +330,13 @@ html {
   grid-row-start: 2;
   grid-row-end: 3;
   margin-top: 40%;
-  color: #fff !important;
+  color: #fff ;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #44ceab;
-  padding: 20px;
+  
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -338,11 +356,13 @@ html {
   grid-row-start: 2;
   grid-row-end: 3;
   margin-top: 40%;
-  color: #fff !important;
+  color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #44ceab;
-  padding: 20px;
+  
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -363,11 +383,13 @@ html {
   grid-row-start: 3;
   grid-row-end: 4;
   margin-top: 30%;
-  color: #fff !important;
+  color: #fff ;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #2483ff;
-  padding: 20px;
+ 
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -387,11 +409,13 @@ html {
   grid-row-start: 3;
   grid-row-end: 4;
   margin-top: 30%;
-  color: #fff !important;
+  color: #fff ;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #2483ff;
-  padding: 20px;
+ 
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -411,11 +435,13 @@ html {
   grid-row-start: 3;
   grid-row-end: 4;
   margin-top: 30%;
-  color: #fff !important;
+  color: #fff ;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #2483ff;
-  padding: 20px;
+ 
   border-radius: 5px;
   display: inline-block;
   border: none;
@@ -435,11 +461,13 @@ html {
   grid-row-start: 3;
   grid-row-end: 4;
   margin-top: 30%;
-  color: #fff !important;
+  color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  padding-top: 40px;
   background: #2483ff;
-  padding: 20px;
+  
   border-radius: 5px;
   display: inline-block;
   border: none;
