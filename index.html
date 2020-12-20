@@ -65,8 +65,29 @@ DOCTYPE html>
 						id="play"
 						controls
 						src="assets/notes/Takeout.mp3"
-						src="assets/notes/Pony Purpose (Repurpose).mp3"
-					></audio>
+                        src="assets/notes/Pony Purpose (Repurpose).mp3"></audio>
+                        
+<!-- Trigger/Open The Modal -->
+<button id="myBtnModal">How-to<br>
+Use</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>MIDI CONTROLLER</h2>
+    <p>The song and background are controlled by a click on the play button, but there is also a transparent
+         button beside the audio player to the left if you want to pause the background independently.
+        The sound effects can be triggered by a click or by pressing the corresponding letter key 
+         on your keyboard. Have fun!</p>
+  </div>
+
+</div>
+
+
+
 					<a
 						onmousedown="addClass('#btn1', 'click_behaviour'), playNote('#Chicks')"
 						onclick="removeClass('#btn1', 'click_behaviour'), pauseNote('#Chicks')"
