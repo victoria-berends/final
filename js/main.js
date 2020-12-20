@@ -38,14 +38,32 @@ document.addEventListener('keyup', (event) => {
 	else if (event.key === 'b') pauseNote('#Bluejay2');
 	else if (event.key === 'n') pauseNote('#Cardinal');
 });
-
-document.addEventListener("keydown", changeBg);
-function changeBg() {
+document.getElementById ('#btn1').addEventListener("onkeydown", changeBg);
+/*document.addEventListener("keydown", (event) =>{
+	if (event.key === 'e') return;
+ changeBg('#feabff') {
 	
-	document.getElementById("btn1").style.backgroundColor = "White";
-	document.getElementById("btn2").style.backgroundColor = "White";
+	//document.getElementById("btn1").style.backgroundColor = "#feabff";
+	//return false;
 	
 }
+
+function btncolour (id) {
+	const changeBg= document.querySelector(id);
+	changeBg.event.key
+}*/
+/*$('#btn1').keypress(function(e){
+	if(e.which == 13){
+		$(this).css('background-color','#feabff');
+	}
+  });
+
+  $('#btn1').keyup(function(e){
+	if(e.which == 13){
+		$(this).css('background-color','');
+	}
+  });*/
+// from stackoverflow//
 
 function playNote(id) {
     const audio = document.querySelector(id);
@@ -58,4 +76,28 @@ function playNote(id) {
 function pauseNote(id) {
 	const audio = document.querySelector(id);
 	audio.pause();
+}
+ 
+function changeBg (){
+	 document.getElementById ('#btn1').innerHTML
+	 = changeBg ('#feabff');
+
+ 
+ }
+  
+ // Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
 }
