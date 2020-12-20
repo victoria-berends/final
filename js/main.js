@@ -38,20 +38,24 @@ document.addEventListener('keyup', (event) => {
 	else if (event.key === 'b') pauseNote('#Bluejay2');
 	else if (event.key === 'n') pauseNote('#Cardinal');
 });
-document.getElementById ('#btn1').addEventListener("onkeydown", changeBg);
+//document.getElementById ('#btn1').addEventListener("onkeydown", changeBg);
 /*document.addEventListener("keydown", (event) =>{
 	if (event.key === 'e') return;
- changeBg('#feabff') {
+ changeBg('#feabff') {*/
 	
-	//document.getElementById("btn1").style.backgroundColor = "#feabff";
-	//return false;
+/*document.getElementById("btn1").style.backgroundColor = "#feabff";
+	return false;
 	
 }
 
 function btncolour (id) {
 	const changeBg= document.querySelector(id);
 	changeBg.event.key
-}*/
+newFunction();
+function newFunction() {
+	 
+}
+
 /*$('#btn1').keypress(function(e){
 	if(e.which == 13){
 		$(this).css('background-color','#feabff');
@@ -92,7 +96,7 @@ var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
 
 // Pause and play the video, and change the button text
-function myFunction() {
+function myBackgroundVideo() {
   if (video.paused) {
     video.play();
     btn.innerHTML = "Pause";
